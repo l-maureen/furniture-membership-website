@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url(furtnitureimg/home\ office.png);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: black !important;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+.navbar-toggler .fa-bars{
+    color: black;
+    font-size: 26px;
+}
+/*subscribe*/
+#subscribe{
+    /*border: 2px solid orange;*/
+    /*The padding-top of 50px gives space between the id subscribe border and the id subscribe contianer.*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#subscribe .container{
+    /*border: 3px solid green;*/
+    /*The margin-bottom of 50px extends the bottom of the #subscribe container.*/
+}
+.subscribe{
+    /*border: 2px solid black;*/
+    /*The padding extend the space inside the class subscribe box-shadow.*/
+    padding-top: 50px; 
+    padding-bottom: 30px;
+    background: white;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    /*The height of 35vh displays the height of the class subscribe box-shadow.*/
+    height: 35vh;
+    margin-top: -140px;
+    /*The padding-top of 15px gives space between the .subscribe h1 and p and the top part of the .subscribe border. */
+    
+}
+.form-inline{
+   /*border: 1px solid red;*/
+   /*The width of 60% extends the with of the elements in the form-inline, the input and button. The input and button are inline horizontally even when the class subscribe increase the padding to 50px.*/
+   width: 60%;
+   /*The first value of margin gives space up and down between the join text-center p and the form input. The second value of margin moves the form input left and right, along with the form-inline border. It doesn't give space between the email and password form input.*/
+   margin: 20px 290px;
+
+}
+/*This gives space between the email and password form input.*/
+.form-group{
+   padding: 0 10px;
+}
+.form-inline button{
+    /*border: 2px solid black;*/
+
+}
+/*about*/
+#about{
+    /*border: 2px solid goldenrod;*/
+    /*The padding-top of 100px gives space between the bottom #about border and the #about col-md-6 elements.*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about h2{
+    /*border: 1px solid green;*/
+    width: 100%;
+    /*The margin-left of -30px moves the #about h2 to the left, closer to the #about image.*/ 
+    /*margin-left: -30px;*/
+    margin-bottom: 20px;
+    /*The margin-top of 10px moves the #about h2 down, along with the #about h2 border.*/
+    margin-top: 10px;
+}
+#about .col-md-6{
+    /*border: 3px solid brown;*/
+    padding-right: 20px;
+    text-align: center;
+}
+#about img{
+    /*border: 2px solid red;*/
+    /*The width of 80% reduces the #about image, which pushes to the right, closer to the #about h2, p.*/
+    width: 90%;
+    height: 55vh;
+}
+/*slider*/
+#slider{
+    /*border: 3x solid green;*/
+    width: 100%;
+    margin-top: 100px;
+}
+.carousel-caption{
+    /*border: 1px solid red;*/
+    margin-bottom: 230px;
+}
+.carousel-caption h5{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+.carousel-caption p{
+    color:  white;
+    font-size: 16px;
+    text-shadow: 2px 2px black;
+}
+/*This is to style the slider images.*/
+#slider .img-fluid{
+    width: 100%;
+    height: 80vh;
+}
+/*instructors section*/
+#instructors{
+    /*border: 3px solid red;*/
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#instructors h1{
+    /*border: 1px solid black;*/  
+}
+.card{
+    /*border: 3px solid red;*/
+    /*The margin-top of 50px extends the space outside between the bottom #instructors h1 border and top card border.*/
+    margin-top: 50px;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);  
+}
+.card:hover{
+    box-shadow: 0 2px 20px #333;
+}
+/*review*/
+#review{
+    /*border: 2px solid red;*/
+    /*The padding-top of 100px gives space between the top part of the #review border and the #review container h1.*/
+    margin-top: 100px;
+    padding-top: 100px;
+    /*background: whitesmoke;*/
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(254, 254, 254)),url(furtnitureimg/picoutdoorsofa.png);
+    height: 730px;
+    background-position: center;
+    /*The background-size of cover removes the beginning part of the image and covers it with the continuation of the image.*/
+    background-size: cover;
+}
+#review .container{
+    /*border: 1px solid green;*/
+    /*The margin-top of -10px moves the top part of the #review container up. It reduces the space between the top part of the #review background image and the #review container.*/
+    margin-top: -40px;
+    margin-bottom: 40px;
+    
+}
+#review h1{
+    /*border: 2px solid violet;*/
+    padding-top: -20px;
+    
+}
+#review .row{
+   /*border: 2px solid green;*/
+    /*The margin-top of 20px extends space between each row.and between the bottom part of #review h1 and the top part of #review row.*/
+    margin-top: 50px; 
+    background: white;
+}
+#review .col-sm-4{
+   /*border: 2px solid brown;*/
+    /*The padding-top of 5px extends the top space of the #review col-sm-4, which aligns with the top part of the #review col-sm-8 horizontally.*/
+    padding-top: 5px;   
+}
+#review .col-sm-4, .col-sm-8{
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+
+}
+#review .col-sm-4:hover, .col-sm-8:hover{
+    box-shadow: 0 2px 20px #333;
+}
+/*membership*/
+#membership{
+    /*border: 2px solid red;*/
+    /*The padding-top of 100px extends the top space of the #membership border.*/
+    padding-top: 100px;
+    /*The padding-bottom of 100px extends the bottom spac eof the #membership border.*/
+    padding-bottom: 100px;
+}
+#membership .row{
+    /*border: 2px solid black;*/
+    /*The margin-top of 50px gives space (space outside the #membership-row border) betweent the #membership h1 and the top part of the #membership-row border.*/
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: -40px;
+}
+#membership h3{
+    /*border: 1px solid brown;*/
+    /*The padding-bottom of 20px extends the bottom space inside the #memberbershp h3 border.*/
+    padding-bottom: 10px;
+    /*The padding-top of 20px extends the top space inside the #membership h3 border.*/
+    padding-top: 30px;
+    /*background: rgb(239, 238, 235);*/
+    background: #f3f0f0;
+    /*The values of border-bottom displays a line at the bottom of the #membership h3 border.*/
+    border-bottom: 2px solid black;
+}
+.membership-column{
+    /*border: 2px solid green;*/
+    /*The display of inline-block */
+    display: inline-block;
+    width: 300px;
+    background: white;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+.membership-column:hover{
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.3);
+}
+.membership-content{
+    /*border: 2px solid red;*/
+    /*The display of inline expands the .membership-content border.*/
+    /*display: inline;*/
+    /*The margin-top of -20px moves the .membership-content border up.*/
+    margin-top: -20px;
+}
+.membership-content ul{
+    /*border: 3px solid gold;*/
+    /*The list-style-type of none removes the dots. If I add it in the .membership-content, it wouldn't remove the dots.*/
+    list-style-type: none;
+    /*The padding-top of 12p gives space inside the top of the .membership-content ul.*/
+    padding-top: 12px;
+}
+.membership-content ul li{
+    /*border: 3px solid violet;*/
+    /*The first value of padding extends space (space inside each .membership-content ul li border) between each membership content links.*/
+    padding: 8px 0;
+    border-bottom: 1px solid lightgrey;
+}
+#membership button{
+    /*The first value of padding expands the space inside the button, top and bottom. The second value of padding expands the space in the button, left and right.*/
+    padding: 10px 30px; 
+    /*The margin-top of 10px gives some distance between the #membership p and button.*/
+    margin-top: 10px;
+    /*The margin-bottom of 20px expands the bottom space (space outside the button border) of the #membership button*/
+    margin-bottom: 40px;
+    /*The float of right moves the #membership button all the way to the right.*/
+    float: right;
+    /*The margin-right of 100px moves the button to the center within the .membership-column div.*/
+    margin-right: 90px;
+    /*The border of none remove the auto #membership button.*/
+    border: none;
+    cursor: pointer;
+    /*background: rgb(239, 238, 235);*/
+    background: #f3f0f0;
+}
+#membership button a{
+    color: black;
+}
+/*footer*/
+#footer{
+    /*border: 1px solid red;*/
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background: #f3f0f0;
+}
+#footer .row{
+    /*border: 2px solid green;*/
+    /*The margin-left of 20px move the #footer row to the right or close to the center.*/
+    margin-left: 20px;
+}
+#footer .fa{
+    /*border: 1px solid red;*/
+    /*The font-size of 30px enlarges the social media icons.*/
+    font-size: 30px;
+    /*The margin-right of 10px spreads each social media icon apart from each other horizontally.*/
+    margin-right: 10px;
+    /*The margin-top of 10px gives space between the col-md-3 h3 and the top part of #footer fa.*/
+    margin-top: 10px;
+    color: black;  
+}
+@media only screen and (max-width: 1200px){
+    .subscribe{
+       /*border: 2px solid black;*/
+        /*The padding is now reduces the space inside between the top part of the v.subscribe box-shadow nad the text.*/
+        padding-top: 10px; 
+        padding-bottom: 30px;
+        background: white;
+        box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+        /*The height of 35vh displays the height of the class subscribe box-shadow.*/
+        height: 35vh;
+        margin-top: -140px;
+        /*The padding-top of 15px gives space between the .subscribe h1 and p and the top part of the .subscribe border. */
+    }
+    .form-inline{
+        /*border: 1px solid red;*/
+        /*The width of 450px extends the width of the form-inline div. It then align with both input horizontally.*/
+        width: 480px;
+        height: 100px;
+        /*The margin-left of 3px moves the elements of the .form-inline right. The lesser the positive value is, the more it more to the left than to the right.*/
+        margin-left: 10px;
+        margin-right: 10px;
+        /*The margin-top of -10px moves the input and the button up. It reduces the space inside the input and the .subscriber p.*/
+        margin-top: -10px;
+        /*The padding-left of 10px gives space inside the form-inline div on the left side. This moves the input to the right.*/
+        padding-left: 20px;
+        padding-right: -20px;
+    }
+    .form-inline button{
+        /*border: 2px solid black;*/
+        /*The margin-left of 10px gives sapce outside the left side of the .form-inline button. This moves the button to the center.*/
+        margin-left: 168px;
+        margin-right: -168px;
+    }
+    .carousel-caption{
+        /*border: 1px solid red;*/
+        /*The value of margin-bottom moves the courousel-caption elements (h1 and p) up to the middle.*/
+        margin-bottom: 130px;
+    }
+    #about h2{
+        /*border: 1px solid green;*/
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        /*I add margin-left of 20px to give space between the left edge and #about h2 border.*/
+        margin-left: 20px;
+    }
+    #about p{
+       /* border: 1px solid red;*/
+        /*The margin-left of 20px moves the #about h2 and p to the right. It gives space between the left edge of the page and the #about p border or div.*/
+        margin-left: 20px;
+        /*I also add margin-right of 20px to give space between the right edge and the #about p border.   */
+        margin-right: 20px;
+    }
+    #slider{
+        /*border: 3x solid green;*/
+        width: 100%;
+        /*I reduce the value of margin-top to 50px to reduce the space betweent the bottom part of the #about p and the top part of the #slider border.*/
+        margin-top: 50px;
+    }
+    #instructors p{
+        /*border: 1px solid forestgreen;*/
+        /*The first value of margin doesn't move the #instructors p border up and down. The second value of margin move the #instructors p border to the center, and the space on the left and right are equal.*/
+        margin: 0 auto;
+    }
+    .card{
+        /*border: 10px solid red;*/
+        /*The margin-top of 50px extends the space outside between the bottom #instructors h1 border and top card border.*/
+        margin-top: 50px;
+        box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2); 
+        /*The first value of margin separates each card apart from each other. The second value of margin moves the .card to the center.*/
+        margin: 30px auto;
+    }
+    #review{
+        /*border: 2px solid red;*/
+        /*The padding-top of 100px gives space between the top part of the #review border and the #review container h1.*/
+        margin-top: 100px;
+        padding-top: 100px;
+        /*background: whitesmoke;*/
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(254, 254, 254)),url(furtnitureimg/picoutdoorsofa.png);
+        /*I change the value of the height to extend the #review background image to include the last review column in the #review background image.*/
+        height: 1150px;
+        background-position: center;
+        /*The background-size of cover removes the beginning part of the image and covers it with the continuation of the image.*/
+        background-size: cover;
+    }
+    #review .col-sm-4{
+        /*border: 2px solid brown;*/
+         /*The padding-top of 5px extends the top space of the #review col-sm-4, which aligns with the top part of the #review col-sm-8 horizontally.*/
+         padding-top: 5px;   
+         /*I add the padding-bottom of 2px to extends the bottom part of #review col-sm-4 to give space between the #review col-sm-4 and col-sm-8 div.*/
+         padding-bottom: 2px;
+    }
+    .membership-column{
+        /*border: 2px solid green;*/
+        /*The display of inline-block */
+        display: inline-block;
+        width: 300px;
+        background: white;
+        box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+        /*I add margin-left of 40px to give space between the left edge and the left side of the membership-column border. In other words, the membership-column moves to the right or center.*/
+        margin-left: 40px;
+        margin-right: -40px;
+        /*I add margin-top of 20px gives space between each membership column.*/
+        margin-top: 30px;
+    }
+    #review .row{
+        /*border: 2px solid green;*/
+         /*The margin-top of 20px extends space between each row.and between the bottom part of #review h1 and the top part of #review row.*/
+         margin-top: 30px; 
+         background: white;
+     }
+     #footer .col-md-3{
+        /*border: 2px solid red;*/
+        /*The text-align of center centers each #footer col-md-3.*/
+        text-align: center;
+     }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
